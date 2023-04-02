@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Loaner Task" max_length="40" name="x_cdltd_loaner_req_loaner_task" sizeclass="0" type="collection">
+        <element label="Lparent" max_length="32" name="lparent" reference="x_cdltd_loaner_req_loaner_requests" type="reference"/>
+        <element attributes="encode_utf8=false" label="Parent" max_length="32" name="u_loaner_ticket" reference="x_cdltd_loaner_req_loaner_requests" type="reference"/>
+    </element>
+</database>
